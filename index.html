@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#CTGPortfolio</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- animate css file link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link rel="icon" href="lg.png">
+
+</head>
+<body>
+<!-- custom cursors  -->
+<div class="cursor-1"></div>
+<div class="cursor-2"></div>
+
+
+<div id="menu-bars" class="fas fa-bars"></div>
+<!-- header section starts  -->
+
+
+<header>
+
+    <a href="#" class="logo" data-aos="fade-right" data-aos-duration="2500"><img src="lg.png"  alt="logo" style="width:60%;margin-top:-70px;"> </a>
+
+    <nav class="navbar" data-aos="fade-right" data-aos-duration="2500">
+        <a href="#home">Acceuil</a>
+        <a href="#about">À propos</a>
+        <a href="#experience">Expériences</a>
+        <a href="#portfolio">portfolio</a>
+    </nav>
+
+    <div class="follow" data-aos="fade-right" data-aos-duration="2500">
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">    
+
+    <div class="content">
+        <div class="container">
+            <div data-aos="fade-right" data-aos-duration="2000">
+                <span class="hi"> Salut, je me nomme</span><br>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="2500">
+                <h3><span> Cheikh Tidiane GUEYE </span> </h3>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="3000">
+                <span class="text first-text">Je suis </span>
+                <span class="text sec-text"></span>
+            </div>
+        </div>
+    
+        <script>
+            const text = document.querySelector(".sec-text");
+    
+            const textLoad = () => {
+                setTimeout(() => {
+                    text.textContent = "Freelanceur";
+                }, 0);
+                setTimeout(() => {
+                    text.textContent = "Développeur UI/UX";
+                }, 2000);
+                setTimeout(() => {
+                    text.textContent = "Développeur web front-end";
+                }, 4000);
+            }
+    
+            textLoad();
+            setInterval(textLoad, 12000);
+        </script>  
+        <div data-aos="fade-right" data-aos-duration="3000">
+            <a href="#about" class="btn">À propos de moi</a>
+        </div> 
+    </div>
+    
+    <div class="image" data-aos="fade-left" data-aos-duration="3000">
+        <img src="home-img.png" alt="image d'acceuil" class="home-img">
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+<div data-aos="fade-right" data-aos-duration="2500">
+<h1 class="heading"> À propos de <span>moi </span> </h1>
+</div>
+<div class="row-1">
+
+    <div class="image" data-aos="fade-right" data-aos-duration="2500">
+        <img src="home-img.png" alt="image d'à propos" class="para">
+    </div>
+
+    <div class="content" data-aos="fade-left" data-aos-duration="2500">
+        <p>Passionné par la programmation et la créativité, je suis capable de programmer un site web, de faire un logo et aussi
+            une maquette de site web avec le logiciel figma. Étant freelanceur je suis ouvert à 
+            de nouvelle opportunité dans le domaine de la technologie. </p>
+        
+        <a href="#" class="btn">Téléchargez mon CV</a>
+        <a href="#mailto:cheikh1652@gmail.com" class="btn">Contactez moi</a>
+    </div>
+
+</div>
+<div data-aos="fade-right" data-aos-duration="1500">
+<h1 class="heading"> <span> Mes  </span> compétences </h1>
+</div>
+<div class="row-2">
+
+    <div class="skills">
+        <div data-aos="fade-right" data-aos-duration="2500">
+            <div class="progress">
+                <h3> UI/UX Design</h3>
+                <div class="bar"> <span></span> </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2500">
+        <div class="progress">
+            <h3> HTML5/CSS3 </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2500">
+        <div class="progress">
+            <h3> JavaScript </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2500">
+        <div class="progress">
+            <h3> Bootstrap </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2500">
+        <div class="progress">
+            <h3> React js </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2500">
+        <div class="progress">
+            <h3> Figma logiciel </h3>
+            <div class="bar"> <span></span> </div>
+        </div>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- experience section starts  -->
+
+<section class="experience" id="experience">
+    <div class="content" data-aos="fade-right" data-aos-duration="2500">
+    <h1 class="heading"> <span> Mon </span> expérience </h1>
+    </div> 
+
+    <div class="box-container">
+        <div class="content" data-aos="fade-right" data-aos-duration="1500">
+        <div class="box">
+            <div class="content">
+                <span> 2020 - 2022 </span>
+                <h3>Freelanceur</h3>
+            </div>
+        </div>
+        </div>
+    </div>       
+
+    </div>
+
+</section>
+
+<!-- experience section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+    <div class="content" data-aos="fade-right" data-aos-duration="2500">
+    <h1 class="heading"> <span>Mon</span> portfolio </h1>
+    </div>
+    <div class="box-container">
+
+        <div class="box" data-aos="fade-left" data-aos-duration="2500">
+            <img src="p1.png" alt="" width="100%">
+            <h3> Nature </h3>
+            <div class="icons">
+                <a target="_blank" href="https://github.com/cheikh236/nature.github.io" class="fa-solid fa-code"></a>
+                <a target="_blank" href="https://cheikh236.github.io/nature.github.io/" class="fa-solid fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-top" data-aos-duration="2500">
+            <img src="p2.png" alt="">
+            <h3> Coming Soon.. </h3>
+            <div class="icons">
+                <a target="_blank" href="https://github.com/cheikh236/coming.soon.github.io" class="fa-solid fa-code"></a>
+                <a target="_blank" href="https://cheikh236.github.io/coming.soon.github.io/" class="fa-solid fa-eye"></a>
+            </div>
+        </div>
+
+        <div class="box" data-aos="fade-right" data-aos-duration="2500">
+            <img src="p3.png" alt="">
+            <h3> Sama-blog </h3>
+            <div class="icons">
+                <a target="_blank" href="https://github.com/cheikh236/Sama-blog.github.io" class="fa-solid fa-code"></a>
+                <a target="_blank" href="https://cheikh236.github.io/Sama-blog.github.io/" class="fa-solid fa-eye"></a>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+
+<!-- footer section  -->
+<footer class="footer">  Design by <span>#CTG</span> | Tous droits réservés! </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom vanilla-tilt.js link  -->
+<script src="vanilla-tilt.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelector(".para"), {
+		max: 25,
+		speed: 1500,
+        transition: true,
+        scale: 1.1,
+        glare: false
+	});
+	
+	//It also supports NodeList
+	VanillaTilt.init(document.querySelectorAll(".para"));
+</script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
